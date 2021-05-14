@@ -51,7 +51,7 @@ p {
 }
 .col-2 img {
     max-width: 100%;
-    /* padding: 50px 0; */
+    padding: 50px 0;   /* TOP BOTTOM   LEFT RIGHT*/
 }
 .col-2 h1 {
     font-size: 50px;
@@ -179,4 +179,19 @@ small {
     font-weight: 600;
     color: #555;
     font-size: 16px;
+}
+/* Brands */
+.brands {
+    margin: 100px auto;  /* TOP BOTTOM   LEFT RIGHT*/
+}
+.col-5 {
+    width: 160px;
+}
+.col-5 img {
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%)
+}
+.col-5 img:hover {
+    filter: grayscale(0)
 }
